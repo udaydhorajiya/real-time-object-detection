@@ -1,0 +1,36 @@
+This file lists all the requirements to run the Real-Time Object Detection project.
+-----------------------
+--- Python Packages ---
+-----------------------
+
+Install these using the command: pip install -r requirements.txt
+ultralytics==8.0.0
+torch==2.1.0
+opencv-python==4.8.0.76
+Pillow==10.1.0
+pygame==2.5.2
+
+-----------------------------
+--- Hardware Requirements ---
+-----------------------------
+--- Minimum Requirements (for basic functionality) ---
+
+Processor: Intel Core i3 or AMD Ryzen 3 (or equivalent)
+Memory (RAM): 8 GB
+Graphics Card: Integrated Graphics (low FPS expected)
+Webcam: Any standard internal or external webcam
+
+--- Recommended Requirements (for smooth real-time performance) ---
+
+Processor: Intel Core i5 or AMD Ryzen 5 (or better)
+Memory (RAM): 16 GB or more
+Graphics Card: NVIDIA GeForce RTX 3050 or better (for CUDA acceleration and high FPS)
+Webcam: A high-definition (1080p) webcam for better input quality
+
+-----------------------------
+--- Software Requirements ---
+-----------------------------
+
+Operating System: Windows 10/11, macOS 11 (Big Sur) or newer, or a modern Linux distribution (e.g., Ubuntu 20.04+)
+Python Version: 3.8 - 3.12
+(Optional) NVIDIA CUDA Toolkit: Version
